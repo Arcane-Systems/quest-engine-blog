@@ -1,7 +1,31 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'Quest Engine'
-theme = 'ananke'
+baseURL = "https://example.org/"
+languageCode = "en-us"
+theme = "poison"
+paginate = 10
+pluralizelisttitles = false
 
 [services.disqus]
-  shortname = 'quest-engine-com'
+  shortname = "quest-engine-com"
+
+[params]
+  brand = "Quest Engine"
+  remote_brand_image = "https://avatars.githubusercontent.com/u/156545576?s=400&u=9b712c06ee1d6912a6ae0448916d2f317ecd1c32&v=4"
+  # description = "Update this description..." # Used as default meta description if not specified in front matter
+  dark_mode = true                      # optional - defaults to false
+  # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
+  front_page_content = ["blog"]
+
+  menu = [
+    {Name = "About", URL = "/about/", HasChildren = false},
+    {Name = "Blog", URL = "/blog/", Pre = "Recent", HasChildren = true, Limit = 5},
+  ]
+
+  # remark42 = true
+  # remark42_host = "http://localhost:5000"
+  # remark42_site_id = "quest_engine_blog"
+
+  email_url = "mailto://david@david-white.dev"
+  github_url = "https://github.com/dwight9339"
+
+  rss_icon = true
+  rss_section = "blog"
