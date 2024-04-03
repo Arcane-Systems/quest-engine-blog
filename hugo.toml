@@ -2,3 +2,6 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Quest Engine'
 theme = 'ananke'
+
+[services.disqus]
+  shortname = 'quest-engine-com'
