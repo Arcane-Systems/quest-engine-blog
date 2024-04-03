@@ -19,7 +19,9 @@ jobs:
         extended: true
 
     - name: Build Hugo site
-      run: hugo --minify
+      run: |
+        hugo --minify
+        && ls public
 
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
