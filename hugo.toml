@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://blog.quest-engine.com"
 languageCode = "en-us"
 theme = "poison"
 paginate = 10
