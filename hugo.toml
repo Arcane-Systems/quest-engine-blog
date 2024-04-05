@@ -26,7 +26,7 @@ pluralizelisttitles = false
   # remark42_site_id = "quest_engine_blog"
 
   email_url = "mailto://david@david-white.dev"
-  github_url = "https://github.com/dwight9339"
+  github_url = "https://github.com/Arcane-Systems"
 
   rss_icon = true
   rss_section = "posts"
