@@ -4,6 +4,7 @@ date = 2024-04-03T02:56:56-06:00
 draft = false
 tags = ["Rust", "development"]
 series = ["Tilecraft Build Log"]
+author = "David White"
 +++
 ## Introduction
 Last year, when GPT-4 was released, I, like everyone else, was captivated by its impressive capabilities. A year later I still use it every day and wouldn't want to go back to a time before it. But it didn't take long after first using it to start probing the depths of its limitations. My girlfriend and I had started playing around with having it serve as a dungeon master for whatever crazy scenario we could think of to throw at it and it did its best but, and I'm sure you can already think of several of them, there are a whole host of reasons why ChatGPT falls horrendously short of an effective dungeon master. For one, it yearns to please. A quest gets pretty damn monotonous in a hurry when the DM just goes along with everything you say and never bothers to run stat checks or perform dice rolls of any kind to determine the success or failure of any given outcome. I experimented with creating a custom GPT with a pre-prompt instructing it to execute Python code to roll a digital dice to determine the success of actions but it seemed either unwilling or just plain couldn't remember to do so during the course of a quest. Even when I asked it explicitly to use random number generation to determine the outcome of an action, the result always somehow seemed to come out in favor of the players. 
