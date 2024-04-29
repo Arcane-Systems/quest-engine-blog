@@ -3,7 +3,7 @@ title = "Introducing Tilecraft: A Powerful and Flexible Tile-Based Map Generatio
 date = 2024-04-03T02:56:56-06:00
 draft = false
 tags = ["Rust", "development"]
-series = ["Tilecraft Build Log"]
+series = "Tilecraft Build Log"
 author = "David White"
 +++
 ## Introduction
